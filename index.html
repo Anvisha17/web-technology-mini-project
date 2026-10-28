@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Maison Aurora — elegant dining, seasonal ingredients, and memorable evenings.">
+  <title>Maison Aurora | Modern Fine Dining</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="announcement">A little luxury, served every day <span>✦</span> Reservations now open</div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Maison Aurora home"><span class="brand-mark">M<span>✦</span>A</span><span class="brand-name">MAISON AURORA<small>DINING & WINE</small></span></a>
+    <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav">
+      <a class="active" href="#home">Home</a>
+      <a href="#story">Our Story</a>
+      <a href="menu.html">Menu</a>
+      <a href="#reservation">Reservations</a>
+    </nav>
+    <div class="header-actions">
+      <a class="login-link" href="login.html" id="accountLink">Sign in</a>
+      <a class="button button-dark button-small" href="#reservation">Book a Table <span>↗</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow light">A TABLE FOR EVERY OCCASION</p>
+        <h1>Make room<br>for <em>something</em><br>beautiful.</h1>
+        <p class="hero-copy">Season-led cooking, thoughtful hospitality, and evenings worth remembering.</p>
+        <div class="hero-buttons">
+          <a class="button button-gold" href="menu.html">Explore the menu <span>↗</span></a>
+          <a class="text-link light-link" href="#story">Discover our story <span>↓</span></a>
+        </div>
+      </div>
+      <div class="hero-caption"><span>01 / 03</span><span>CRAFTED WITH CARE · SHARED WITH LOVE</span></div>
+      <div class="vertical-note">PUNE · INDIA</div>
+    </section>
+
+    <section class="intro section-pad" id="story">
+      <div class="intro-image image-frame">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1100&q=85" alt="An elegant restaurant table set for dinner">
+        <div class="image-note"><span>EST.</span><strong>2021</strong><small>MADE FOR MOMENTS</small></div>
+      </div>
+      <div class="intro-copy">
+        <p class="eyebrow">THE MAISON PHILOSOPHY</p>
+        <h2>Good food.<br><em>Great feeling.</em></h2>
+        <p class="lead">We believe the best meals are never just about what’s on the plate.</p>
+        <p>They’re about the first sip, the familiar laugh, the dish you can’t stop thinking about. At Maison Aurora, seasonal ingredients meet a modern sensibility in a warm, quietly beautiful setting.</p>
+        <a class="text-link" href="#experience">A taste of Maison <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="menu-section section-pad" id="experience">
+      <div class="section-heading">
+        <div><p class="eyebrow">FROM OUR KITCHEN</p><h2>Made to be <em>savoured.</em></h2></div>
+        <a class="text-link" href="menu.html">View full menu <span>↗</span></a>
+      </div>
+      <div class="dish-grid">
+        <article class="dish-card">
+          <div class="dish-photo"><img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=85" alt="Fresh pasta with herbs"><span class="dish-number">01</span></div>
+          <div class="dish-info"><div><h3>Garden Herb Pasta</h3><p>Handmade pasta · garden herbs · parmesan</p></div><strong>₹420</strong></div>
+        </article>
+        <article class="dish-card">
+          <div class="dish-photo"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=85" alt="Fresh seasonal salad"><span class="dish-number">02</span></div>
+          <div class="dish-info"><div><h3>Harvest Bowl</h3><p>Seasonal greens · citrus · toasted seeds</p></div><strong>₹320</strong></div>
+        </article>
+        <article class="dish-card">
+          <div class="dish-photo"><img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=85" alt="Freshly baked artisan pizza"><span class="dish-number">03</span></div>
+          <div class="dish-info"><div><h3>Woodland Pizza</h3><p>Roasted tomato · mozzarella · basil</p></div><strong>₹390</strong></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="quote-band">
+      <div class="quote-mark">“</div>
+      <blockquote>Come for the food.<br><em>Stay for the feeling.</em></blockquote>
+      <p>THE MAISON AURORA EXPERIENCE</p>
+    </section>
+
+    <section class="reservation-section section-pad" id="reservation">
+      <div class="reservation-copy">
+        <p class="eyebrow">YOUR TABLE IS WAITING</p>
+        <h2>Let’s make<br><em>an evening of it.</em></h2>
+        <p>Celebrating something special or simply making Tuesday feel different? We’ll save you a seat.</p>
+        <div class="contact-mini"><span>✦</span><div><strong>Opening hours</strong><p>Mon–Sun · 12:00 PM – 10:30 PM</p></div></div>
+        <div class="contact-mini"><span>✦</span><div><strong>Find us</strong><p>12 Riverside Lane, Koregaon Park, Pune</p></div></div>
+      </div>
+      <form class="reservation-form" id="reservationForm">
+        <p class="eyebrow">RESERVATION REQUEST</p>
+        <h3>Book your table</h3>
+        <div class="form-row">
+          <label>Full name<input type="text" name="name" placeholder="Your name" required></label>
+          <label>Email address<input type="email" name="email" placeholder="you@example.com" required></label>
+        </div>
+        <div class="form-row">
+          <label>Date<input type="date" name="date" id="reservationDate" required></label>
+          <label>Time<select name="time" required><option value="">Choose a time</option><option>12:00 PM</option><option>1:00 PM</option><option>2:00 PM</option><option>6:00 PM</option><option>7:00 PM</option><option>8:00 PM</option><option>9:00 PM</option></select></label>
+        </div>
+        <label>Number of guests<select name="guests" required><option value="">Select guests</option><option>1 guest</option><option>2 guests</option><option>3 guests</option><option>4 guests</option><option>5 guests</option><option>6 guests</option></select></label>
+        <label>Anything we should know? <textarea name="notes" rows="3" placeholder="A special occasion, dietary note..."></textarea></label>
+        <button class="button button-dark button-full" type="submit">Request a reservation <span>↗</span></button>
+        <p class="form-note">Demo project: your request is saved only in this browser.</p>
+        <p class="form-message" id="reservationMessage" role="status"></p>
+      </form>
+    </section>
+
+    <section class="newsletter">
+      <div><p class="eyebrow light">NOTES FROM THE MAISON</p><h2>A little something<br><em>lovely in your inbox.</em></h2></div>
+      <form id="newsletterForm" class="newsletter-form"><label class="sr-only" for="newsletterEmail">Email address</label><input id="newsletterEmail" type="email" placeholder="Your email address" required><button type="submit" aria-label="Subscribe">↗</button><p id="newsletterMessage" role="status"></p></form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="index.html"><span class="brand-mark">M<span>✦</span>A</span><span class="brand-name">MAISON AURORA<small>DINING & WINE</small></span></a>
+    <p>Good food. Great feeling. Always.</p>
+    <div class="footer-links"><a href="menu.html">Menu</a><a href="#reservation">Reservations</a><a href="login.html">Member sign in</a></div>
+    <small>© <span id="year"></span> Maison Aurora. A student portfolio project.</small>
+  </footer>
+</body>
+</html>

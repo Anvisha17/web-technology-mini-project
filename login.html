@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In | Maison Aurora</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"><script src="script.js" defer></script>
+</head>
+<body class="auth-page">
+  <a class="auth-back" href="index.html">← Back to Maison Aurora</a>
+  <main class="auth-layout">
+    <section class="auth-image"><div class="auth-image-overlay"></div><a class="brand auth-brand" href="index.html"><span class="brand-mark">M<span>✦</span>A</span><span class="brand-name">MAISON AURORA<small>DINING & WINE</small></span></a><div class="auth-image-copy"><p class="eyebrow light">YOUR PLACE AT THE TABLE</p><h1>Good evenings<br>begin <em>here.</em></h1><p>Sign in for a more personal Maison experience.</p></div><small class="auth-image-foot">CRAFTED WITH CARE · SHARED WITH LOVE</small></section>
+    <section class="auth-panel"><div class="auth-form-wrap">
+      <p class="eyebrow">WELCOME BACK</p><h2>Lovely to see<br><em>you again.</em></h2><p class="auth-intro">Sign in to your Maison account.</p>
+      <form id="loginForm">
+        <label>Email address<input type="email" id="loginEmail" name="email" placeholder="you@example.com" autocomplete="email" required></label>
+        <label>Password<input type="password" id="loginPassword" name="password" placeholder="Enter your password" autocomplete="current-password" required minlength="6"></label>
+        <div class="auth-options"><label class="checkbox-label"><input type="checkbox" id="rememberMe"> Remember me</label><a href="#" id="forgotPassword">Forgot password?</a></div>
+        <button class="button button-dark button-full" type="submit">Sign in <span>↗</span></button>
+        <p class="form-message" id="loginMessage" role="status"></p>
+      </form>
+      <p class="auth-switch">New to Maison? <a href="signup.html">Create an account</a></p>
+      <p class="demo-warning">Portfolio demo only. Do not use a real or reused password. Accounts are stored in this browser and are not secure.</p>
+    </div></section>
+  </main>
+</body>
+</html>

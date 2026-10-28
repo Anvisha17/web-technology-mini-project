@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account | Maison Aurora</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"><script src="script.js" defer></script>
+</head>
+<body class="auth-page">
+  <a class="auth-back" href="index.html">← Back to Maison Aurora</a>
+  <main class="auth-layout">
+    <section class="auth-image signup-image"><div class="auth-image-overlay"></div><a class="brand auth-brand" href="index.html"><span class="brand-mark">M<span>✦</span>A</span><span class="brand-name">MAISON AURORA<small>DINING & WINE</small></span></a><div class="auth-image-copy"><p class="eyebrow light">A SEAT WITH YOUR NAME ON IT</p><h1>Come on in.<br><em>Stay awhile.</em></h1><p>Join us for seasonal plates and memorable moments.</p></div><small class="auth-image-foot">YOUR NEXT FAVOURITE TABLE AWAITS</small></section>
+    <section class="auth-panel"><div class="auth-form-wrap">
+      <p class="eyebrow">JOIN THE MAISON</p><h2>Create your<br><em>account.</em></h2><p class="auth-intro">A few details and you’re all set.</p>
+      <form id="signupForm">
+        <label>Your name<input type="text" id="signupName" name="name" placeholder="Full name" autocomplete="name" required minlength="2"></label>
+        <label>Email address<input type="email" id="signupEmail" name="email" placeholder="you@example.com" autocomplete="email" required></label>
+        <label>Create password<input type="password" id="signupPassword" name="password" placeholder="At least 6 characters" autocomplete="new-password" required minlength="6"></label>
+        <label>Confirm password<input type="password" id="confirmPassword" name="confirmPassword" placeholder="Enter password again" autocomplete="new-password" required minlength="6"></label>
+        <label class="checkbox-label terms-label"><input type="checkbox" id="signupTerms" required> I agree to the demo terms and privacy notice.</label>
+        <button class="button button-dark button-full" type="submit">Create account <span>↗</span></button>
+        <p class="form-message" id="signupMessage" role="status"></p>
+      </form>
+      <p class="auth-switch">Already a member? <a href="login.html">Sign in</a></p>
+      <p class="demo-warning">Demo only: credentials are stored locally in your browser. This is not secure authentication.</p>
+    </div></section>
+  </main>
+</body>
+</html>
